@@ -468,3 +468,104 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222;
 }
+
+
+/* Styles From Agency Template */
+
+.bg-light-gray {
+  background-color: #f7f7f7
+}
+
+section h3.section-subheading {
+  font-size:16px;
+  font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:none;
+  font-style:italic;
+  font-weight:400;
+  margin-bottom:75px
+}
+
+.team-member {
+  text-align:center;
+  margin-bottom:50px
+}
+
+.team-member img {
+  margin:0 auto;
+  border:7px solid #fff
+}
+
+.team-member h4 {
+  margin-top:25px;
+  margin-bottom:0;
+  text-transform:none
+}
+
+.team-member p {
+  margin-top:0
+}
+
+footer {
+  padding:25px 0;
+  text-align:center
+}
+
+footer span.copyright {
+  line-height:40px;
+  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:none
+}
+
+footer ul.quicklinks {
+  margin-bottom:0;
+  line-height:40px;
+  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:none
+}
+
+ul.social-buttons {
+  margin-bottom:0
+}
+
+ul.social-buttons li a {
+  display:block;
+  background-color:#222;
+  height:40px;
+  width:40px;
+  border-radius:100%;
+  font-size:20px;
+  line-height:40px;
+  color:#fff;
+  outline:0;
+  -webkit-transition:all .3s;
+     -moz-transition:all .3s;
+          transition:all .3s
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color:#00cccc
+}
+
+::-moz-selection {
+  text-shadow:none;
+  background:#00cccc
+}
+
+::selection {
+  text-shadow:none;
+  background:#00cccc
+}
+
+img::selection {
+  background:0 0
+}
+
+img::-moz-selection {
+  background:0 0
+}
+
+body {
+  webkit-tap-highlight-color:#00cccc
+}
