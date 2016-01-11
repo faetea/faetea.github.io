@@ -23,6 +23,10 @@ hr.light {
   border-color: #fff;
 }
 
+hr.dark {
+  border-color: #222;
+}
+
 a {
   color: #00cccc;
   -webkit-transition: all .35s;
@@ -51,11 +55,11 @@ p {
 
 .bg-dark {
   color: #fff;
-  background-color: #222;
+  background-color: #339999;
 }
 
 .text-faded {
-  color: rgba(255,255,255,.7);
+  color: rgba(255,255,255,.75);
 }
 
 section {
@@ -485,9 +489,44 @@ section h3.section-subheading {
   margin-bottom:75px
 }
 
+.text-center p {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.dk-head {
+  color: #222;
+}
+
+.dk-link i {
+  margin:0;
+  color: #222;
+}
+
+.dk-link a {
+  margin-bottom:0;
+  line-height:60px;
+  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:none;
+  color: #fff;
+  font-size: 17px;
+  text-decoration:none
+}
+
+ul.dk-link li a:hover,
+ul.dk-link li a:focus,
+ul.dk-link li a:active {
+  color: #222;
+}
+
+#resume {
+  margin-top: 30px;
+}
+
 .team-member {
-  text-align:center;
-  margin-bottom:50px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .team-member img {
@@ -503,7 +542,8 @@ section h3.section-subheading {
 }
 
 .team-member p {
-  margin-top:0
+  margin-top: 0;
+  padding-top: 0;
 }
 
 footer {
@@ -514,14 +554,18 @@ footer {
 footer span.copyright {
   line-height:40px;
   font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform:none
+  text-transform:none;
+}
+
+footer span.copyright a {
+  text-decoration:none
 }
 
 footer ul.quicklinks {
   margin-bottom:0;
   line-height:40px;
   font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform:none
+  text-transform:none;
 }
 
 ul.social-buttons {
