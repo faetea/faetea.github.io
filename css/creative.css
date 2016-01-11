@@ -255,6 +255,7 @@ header .header-content .header-content-inner p {
   position: relative;
   margin: 0 auto;
   max-width: 650px;
+  text-decoration:none;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -392,7 +393,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   border-color: #66ffff;
-  color: #fff;
+  color: #00cccc;
   background-color: #99ffff;
 }
 
@@ -541,7 +542,7 @@ section h3.section-subheading {
   margin-bottom:75px
 }
 
-.text-center p {
+.contact-row p {
   margin-top: 20px;
   padding: 20px;
 }
@@ -741,4 +742,12 @@ body {
 .portfolio-modal .modal-backdrop {
   opacity:0;
   display:none
+}
+
+.modal-content a {
+  text-decoration: none;
+}
+
+.modal-content li {
+  padding: 0 20px 0 20px;
 }
