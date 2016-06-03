@@ -590,6 +590,10 @@ body {
   webkit-tap-highlight-color: #222;
 }
 
+#about > :first-child {
+  margin-bottom: 2em;
+}
+
 #skills > .container > .row > .text-center {
   padding-left: 2.5em;
   padding-right: 2.5em;
