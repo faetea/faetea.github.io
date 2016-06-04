@@ -148,7 +148,7 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <a href="#portfolioModal3" class="portfolio-box" data-toggle="modal">
+                    <a href="#portfolioModal2" class="portfolio-box" data-toggle="modal">
                         <img src="img/portfolio/BL.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -162,7 +162,7 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <a href="#portfolioModal5" class="portfolio-box" data-toggle="modal">
+                    <a href="#portfolioModal3" class="portfolio-box" data-toggle="modal">
                         <img src="img/portfolio/TTT.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -210,13 +210,13 @@
               <div class="col-md-6 text-center">
                 <h3>Front End Skills</h3>
                 <h4 class="text-muted">
-                  JavaScript, jQuery, HTML5, CSS3, Bootstrap, Ember.js, Handlebars, Amazon S3, GitHub
+                  JavaScript, jQuery, HTML5, CSS3, Bootstrap, Ember.js, Handlebars
                 </h4>
               </div>
               <div class="col-md-6 text-center">
                 <h3>Back End Skills</h3>
                 <h4 class="text-muted">
-                  Ruby on Rails, Node.js, Express.js, Active Record(ORM), Sequelize.js(ORM), Mongoose.js(ODM), PostgreSQL, MongoDB, Heroku
+                  Ruby on Rails, Node.js, Express.js, PostgreSQL, MongoDB, Amazon S3, GitHub, Heroku
                 </h4>
               </div>
             </div>
@@ -282,6 +282,44 @@
 
 
 
+    <!-- Ember Image Gallery -->
+    <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">  <!-- Project Details Go Here -->
+                            <h3>Ember Image Gallery</h3>
+                            <h5>(Personal Project, Spring 2016)</h5>
+                            <p class="item-intro text-muted">
+                              Image Gallery Ember client uses token-based authentication to connect with Rails server
+                              <ul class="text-left text-muted">
+                                <li>Integrated off-site storage of image content in Amazon S3</li>
+                                <li>Hierarchical data structure with per-user limits on editing</li>
+                                <li>Responsive layout with dynamic image scaling</li>
+                              </ul>
+                            </p>
+                            <img class="img-responsive img-centered" src="img/portfolio/IG.png" alt="application screenshot">
+                            <img class="img-responsive img-centered" src="img/portfolio/IG2.png" alt="application screenshot">
+                            <img class="img-responsive img-centered" src="img/portfolio/IG4.png" alt="application screenshot">
+                            <ul class="list-inline">
+                                <li><a href="http://faetea.github.io/ember-imagegallery/" target="_blank" class="btn btn-light"> Open Application <i class="fa fa-external-link"></i></a></li>
+                                <li><a href="https://github.com/faetea/ember-imagegallery" target="_blank" class="btn btn-light">Open Git Repo <i class="fa fa-github"></i></a></li>
+                                <li><a class="btn btn-light" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Pressure Chart -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -295,11 +333,18 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">  <!-- Project Details Go Here -->
-                            <h2>Pressure Tracker</h2>
-                            <p class="item-intro text-muted">My goal is to write an application that will allow me to show corrolations between barometric pressure and my tension-headaches.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/1-5.jpg" alt="application screenshot">
-                            <img class="img-responsive img-centered" src="img/portfolio/1.jpg" alt="application screenshot">
-                            <p class="text-muted">The back-end saves the weather-data for my zipcode. The front-end displays the saved weather-pressure and my health logs into two line-graphs.</p>
+                            <h3>Pressure Tracker</h3>
+                            <h5>(Personal Project, Spring 2016)</h5>
+                            <p class="item-intro text-muted">
+                              Application correlates barometric pressure and chronic-pain such as tension-headaches, migraines or arthritis.
+                              <ul class="text-left text-muted">
+                                <li>Hourly server-to-server retrieval of weather data, triggered via cron job</li>
+                                <li>Custom JSON data structure used between client and server</li>
+                                <li>Visualization of user and server generated data using ChartsJS</li>
+                              </ul>
+                            </p>
+                            <img class="img-responsive img-centered" src="img/portfolio/PT.png" alt="application screenshot">
+                            <img class="img-responsive img-centered" src="img/portfolio/PT2.png" alt="application screenshot">
                             <ul class="list-inline">
                                 <li><a href="http://faetea.github.io/weatherFront/" target="_blank" class="btn btn-light"> Open Application <i class="fa fa-external-link"></i></a></li>
                                 <li><a href="https://github.com/faetea/weatherBE" target="_blank" class="btn btn-light">Open Git Repo <i class="fa fa-github"></i></a></li>
@@ -313,35 +358,6 @@
     </div>
 
     <!-- BucketList -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">  <!-- Project Details Go Here -->
-                            <h2>BucketList</h2>
-                            <p class="item-intro text-muted">BucketList is a free web application built by <a href="https://github.com/wdi09-lovelace-squad" target="_blank">Lovelace Squad</a> for General Assembly. BucketList is an application where users can log in, and set up a personal BucketList of places they want to experience. </p>
-                            <img class="img-responsive img-centered" src="img/portfolio/3.jpg" alt="application screenshot">
-                            <p class="text-muted"> An elegant solution designed for all users that are looking to travel and/or find things to do in the area(s) that they want to visit. We integrated with third-party API to allow users to search for a location using Foursquare’s API, and then view the search results using Mapbox to add to their BucketList.</p>
-                            <ul class="list-inline">
-                                <li><a href="http://wdi09-lovelace-squad.github.io/bucketlist/" target="_blank" class="btn btn-light"> Open Application <i class="fa fa-external-link"></i></a></li>
-                                <li><a href="https://github.com/wdi09-lovelace-squad/bucketlist-api" target="_blank" class="btn btn-light">Open Git Repo <i class="fa fa-github"></i></a></li>
-                                <li><a class="btn btn-light" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Bloggie-GEN -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -354,42 +370,25 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">  <!-- Project Details Go Here -->
-                            <h2>Bloggie-GEN</h2>
-                            <p class="item-intro text-muted">I attempted to use Ember.js to build a simple blog engine.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/2.jpg" alt="application screenshot">
-                            <p class="text-muted">This was extremely challenging primarily because Ember.js was so new to me.</p>
+                            <h3>BucketList</h3>
+                            <h5>(Group Assignment, Fall 2015)</h5>
+                            <p class="item-intro text-muted">
+                              Web app by <a href="https://github.com/wdi09-lovelace-squad" target="_blank">Lovelace Squad</a> for General Assembly; each User creates a personal list of places.
+                              <ul class="text-left text-muted">
+                                <li>Initialized application server codebase using Mongoose ODM and Passport</li>
+                                <li>Initialized MongoDB and connected to application server</li>
+                                <li>Integrated Bootstrap and Font Awesome icons in the client</li>
+                              </ul>
+                            </p>
+                            <img class="img-responsive img-centered" src="img/portfolio/BL.png" alt="application screenshot">
+                            <img class="img-responsive img-centered" src="img/portfolio/BL2.png" alt="application screenshot">
+                            <p class="text-muted">
+                              BucketList is an elegant solution designed for all users who are looking to travel and/or find things to do in the area(s) that they want to visit.  Users can log in, set up a personal BucketList of places they want to experience, and add notes.</p>
+                            <p class="text-muted">
+                              We integrated with third-party API to allow users to search for a location using Foursquare’s API, and then view the search results using Mapbox to add to the user's BucketList.</p>
                             <ul class="list-inline">
-                                <li><a href="http://faetea.github.io/project-4/" target="_blank" class="btn btn-light"> Open Application <i class="fa fa-external-link"></i></a></li>
-                                <li><a href="https://github.com/faetea/project-4" target="_blank" class="btn btn-light">Open Git Repo <i class="fa fa-github"></i></a></li>
-                                <li><a class="btn btn-light" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- HealthApp -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">  <!-- Project Details Go Here -->
-                            <h2>My Health App</h2>
-                            <p class="item-intro text-muted">This is the first back-end I wrote at General Assembly, it's in Ruby on Rails.  My goal was to write an application that connects weather data (barometric pressure) to user entries (health symptoms).  During this project I was only able to get through entering user entries.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/4.jpg" alt="application screenshot">
-                            <p class="text-muted">I learned a lot from this project and the project following it, and decided to start from scratch with the barometric pressure concept rather than finish this application.</p>
-                            <ul class="list-inline">
-                                <li><a href="http://faetea.github.io/Project-2-front-end/" target="_blank" class="btn btn-light"> Open Application <i class="fa fa-external-link"></i></a></li>
-                                <li><a href="https://github.com/faetea/project2-api" target="_blank" class="btn btn-light">Open Git Repo <i class="fa fa-github"></i></a></li>
+                                <li><a href="http://wdi09-lovelace-squad.github.io/bucketlist/" target="_blank" class="btn btn-light"> Open Application <i class="fa fa-external-link"></i></a></li>
+                                <li><a href="https://github.com/wdi09-lovelace-squad/bucketlist-api" target="_blank" class="btn btn-light">Open Git Repo <i class="fa fa-github"></i></a></li>
                                 <li><a class="btn btn-light" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</a></li>
                             </ul>
                         </div>
@@ -400,7 +399,7 @@
     </div>
 
     <!-- TicTacToe -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -412,10 +411,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">  <!-- Project Details Go Here -->
-                            <h2>Tic Tac Toe</h2>
-                            <p class="item-intro text-muted">The very first project I made at General Assembly, a simple JavaScript game.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/5.jpg" alt="application screenshot">
-                            <p class="text-muted">It isn't complex, but I was proud that I wrote my own game logic.</p>
+                            <h3>Tic Tac Toe</h3>
+                            <h5>(First Project, Fall 2015)</h5>
+                            <p class="item-intro text-muted">
+                              The very first project I made at General Assembly, a simple JavaScript game.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/TTT2.png" alt="application screenshot">
+                            <p class="text-muted">
+                              It isn't complex, but it was my first.  I was proud that I wrote my own game logic.</p>
                             <ul class="list-inline">
                                 <li><a href="http://faetea.github.io/Project-1/" target="_blank" class="btn btn-light"> Open Application <i class="fa fa-external-link"></i></a></li>
                                 <li><a href="https://github.com/faetea/Project-1" target="_blank" class="btn btn-light">Open Git Repo <i class="fa fa-github"></i></a></li>
